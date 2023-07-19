@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Hey azhan click this !!!</h1>
+    <script>
+        let obj = {
+            name: 'Azhan',
+            age: '17',
+            fun: function digits(number){
+                console.log(" the lucky number of this year is " + number)
+                cnsole.log()
+            }
+        }
+
+        let heading = document.getElementById('heading');
+        heading.onclick = () => {
+            let conf = confirm("Are you sure")
+            console.log(conf);
+           if(conf == true){
+            let event = document.addEventListener("click", function(){
+            console.log("clicked");
+        })
+           }
+           else{
+            console.log("please select ok");
+           }
+        }
+
+        let arr = [23, 34, 44];
+
+        setTimeout(() => {
+            console.log("Azhan after 3 seconds")
+        }, 3000);
+
+        let myFun = () => {
+            console.log("the number is"+this);
+        }
+        let muFun = () => {
+            console.log("the number is" + this);
+        }
+        muFun();
+
+       setTimeout(() => {
+        function myfUn(number){
+            console.log("the number is" + number);
+        }
+        myfUn(30, 40)
+       }, 4000);
+
+
+    </script>
+</body>
+</html>
