@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Azhan-developer/WordCounter.git/static/css/main.e6c13ad2.css",
+    "main.js": "/Azhan-developer/WordCounter.git/static/js/main.aa8720bf.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Azhan-developer/WordCounter.git/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Azhan-developer/WordCounter.git/index.html",
+    "main.e6c13ad2.css.map": "/Azhan-developer/WordCounter.git/static/css/main.e6c13ad2.css.map",
+    "main.aa8720bf.js.map": "/Azhan-developer/WordCounter.git/static/js/main.aa8720bf.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Azhan-developer/WordCounter.git/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.aa8720bf.js"
+  ]
+}
